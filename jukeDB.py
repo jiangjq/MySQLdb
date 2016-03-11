@@ -262,34 +262,3 @@ class JukeDB:
 		
 		#Play song
 		os.system("mplayer %s" % (path)) 
-
-#def main():
-	##Connecting to database
-	#connect = JukeDB("localhost","root","jukebox","jukebox")
-
-	##Show full table
-	#view = connect.viewFullDB()
-	#print view
-	
-	##
-	#song1 = connect.ViewDB('music','stan1.mp3')
-	##print song1
-	
-	##add_song = connect.addToDB('music','/home/chris/Music/Aerodynamic.mp3','Daft Punk','Aerodynamic','Discovery')
-	
-	
-	#song_id = raw_input("Enter song id:")
-	#song_path = connect.getFilePath(song_id)
-	#print song_path
-	#go = connect.playSong(song_path)
-	
-	
-	##This adds a song to the database if the filename does not already exist.
-	
-	##add_song = connect.addToDB('music','/home/chris/Music/Tycho-A-Walk.mp3','Tycho','A Walk','Dive')
-	##print add_song
-
-
-
-#if __name__ == '__main__':
-    #main()
